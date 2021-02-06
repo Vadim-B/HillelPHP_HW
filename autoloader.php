@@ -145,5 +145,4 @@ class Psr4AutoloaderClass
 $autoloader = new Psr4AutoloaderClass();
 
 $autoloader->addNamespace('\Hillel\HomeWork', 'src');
-$autoloader->addNamespace('\Payum', 'src/isoCodes');
 $autoloader->register();
